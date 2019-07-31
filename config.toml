@@ -13,7 +13,7 @@ description = "personal website and blog of Ben Crisp"
   tag = "tags"
 
 [params]
-  titleEmoji = ":pointleft:"
+  titleEmoji = ":point_left:"
   twitter = "bcrisp"
 
 [Permalinks]
