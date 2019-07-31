@@ -5,7 +5,7 @@ go:
   - master # use the latest version of go
 
 install:
-  - go get github.com/gohugo/hugo # use the latest version of Hugo
+  - go get github.com/gohugoio/hugo # use the latest version of Hugo
 
 script:
   - hugo # Build site
