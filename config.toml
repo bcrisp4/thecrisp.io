@@ -1,3 +1,45 @@
-baseURL = "http://example.org/"
+baseURL = "https://thecrisp.io"
+title = "i am the crisp"
+theme ="basic"
 languageCode = "en-us"
-title = "My New Hugo Site"
+googleAnalytics = "UA-XXXXXXXXX-X"
+enableEmoji = true 
+copyright = "© 2016-19 <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>. Made by <a href='https://twitter.com/siegerts'>@siegerts</a>."
+description = "personal website and blog of Ben Crisp"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+  titleEmoji = ":pointleft:"
+  # change this!
+  twitter = "siegerts"
+
+[Permalinks]
+  post = "post/:slug"
+
+[[params.menu]]
+  name = "blog"
+  url = "post/"
+
+[[params.menu]]
+  name = "post series"
+  url = "series/"
+  
+
+[[params.menu]]
+  name = "about"
+  url = "about/"
+  
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
