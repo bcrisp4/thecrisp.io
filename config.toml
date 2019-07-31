@@ -1,6 +1,6 @@
 baseURL = "https://thecrisp.io"
 title = "i am the crisp"
-theme ="basic"
+theme = "basic"
 languageCode = "en-us"
 googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
@@ -14,8 +14,7 @@ description = "personal website and blog of Ben Crisp"
 
 [params]
   titleEmoji = ":pointleft:"
-  # change this!
-  twitter = "siegerts"
+  twitter = "bcrisp"
 
 [Permalinks]
   post = "post/:slug"
