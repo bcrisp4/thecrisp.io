@@ -1,6 +1,7 @@
 install:
   # Install v0.55.6 of Hugo, the same version used for development 
-  - sudo apt -y install https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.deb
+  - wget -o /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.deb 
+  - sudo dpkg -i /tmp/hugo.deb
 
 script:
   - hugo # Build site
