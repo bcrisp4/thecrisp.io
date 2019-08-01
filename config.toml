@@ -2,7 +2,7 @@ baseURL = "https://thecrisp.io/"
 title = "i am the crisp"
 theme = "basic"
 languageCode = "en-us"
-googleAnalytics = "UA-XXXXXXXXX-X"
+googleAnalytics = "UA-144985760-1"
 enableEmoji = true 
 copyright = "© 2016-19 <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>. Made by <a href='https://twitter.com/siegerts'>@siegerts</a>."
 description = "personal website and blog of Ben Crisp"
