@@ -1,4 +1,4 @@
-baseURL = "https://thecrisp.io"
+baseURL = "https://thecrisp.io/"
 title = "i am the crisp"
 theme = "basic"
 languageCode = "en-us"
