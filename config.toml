@@ -2,14 +2,14 @@ baseURL = "https://thecrisp.io/"
 title = "ben_crisp"
 theme = "peel"
 languageCode = "en-us"
-paginate = 5
+paginate = 6
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
     headerTagline = "nerd, sysadmin, gamer"
     description = "Personal webiste and blog of Ben Crisp"
-    keywords = [""]
+    keywords = ["ben crisp", "ben", "crisp", "thecrisp", "blog", "technology", "sysadmin", "linux", "devops"]
     footerText = "Ben Crisp &#xA9; 2019"
     googleAnalyticsID = "UA-144985760-1"
     githubLink = "https://github.com/bcrisp4"
