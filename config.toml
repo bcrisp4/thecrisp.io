@@ -1,4 +1,46 @@
 baseURL = "https://thecrisp.io/"
-title = "i am the crisp"
-theme = "gruvbox"
+title = "ben_crisp"
+theme = "peel"
 languageCode = "en-us"
+paginate = 5
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+    headerTagline = "nerd, sysadmin, gamer"
+    description = "Personal webiste and blog of Ben Crisp"
+    keywords = [""]
+    footerText = "Ben Crisp &#xA9; 2019"
+    googleAnalyticsID = "UA-144985760-1"
+    githubLink = "https://github.com/bcrisp4"
+    linkedinLink = "https://www.linkedin.com/in/ben-s-crisp/"
+    emailLink = "mailto:ben@thecrisp.io"
+
+[menu]
+  [[menu.social]]
+    identifier = "twitter"
+    name = "twitter"
+    pre = ""
+    url = "https://twitter.com/bcrisp4"
+    weight = 1
+  [[menu.social]]
+    identifier = "github"
+    name = "github"
+    pre = ""
+    url = "https://github.com/bcrisp4"
+    weight = 2
+  [[menu.social]]
+    identifier = "linkedin"
+    name = "linkedin"
+    pre = ""
+    url = "https://linkedin.com/in/ben-s-crisp"
+    weight = 3
+  [[menu.social]]
+    identifier = "email"
+    name = "email"
+    pre = ""
+    url = "mailto:ben@thecrisp.com"
+    weight = 4
+
+
+    
