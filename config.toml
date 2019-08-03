@@ -1,44 +1,46 @@
 baseURL = "https://thecrisp.io/"
-title = "i am the crisp"
-theme = "basic"
+title = "ben_crisp"
+theme = "peel"
 languageCode = "en-us"
-googleAnalytics = "UA-144985760-1"
-enableEmoji = true 
-copyright = "© 2016-19 <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>. Made by <a href='https://twitter.com/siegerts'>@siegerts</a>."
-description = "personal website and blog of Ben Crisp"
-
-[taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
+paginate = 5
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [params]
-  titleEmoji = ":point_left:"
-  twitter = "bcrisp"
+    headerTagline = "nerd, sysadmin, gamer"
+    description = "Personal webiste and blog of Ben Crisp"
+    keywords = [""]
+    footerText = "Ben Crisp &#xA9; 2019"
+    googleAnalyticsID = "UA-144985760-1"
+    githubLink = "https://github.com/bcrisp4"
+    linkedinLink = "https://www.linkedin.com/in/ben-s-crisp/"
+    emailLink = "mailto:ben@thecrisp.io"
 
-[Permalinks]
-  post = "post/:slug"
+[menu]
+  [[menu.social]]
+    identifier = "twitter"
+    name = "twitter"
+    pre = ""
+    url = "https://twitter.com/bcrisp4"
+    weight = 1
+  [[menu.social]]
+    identifier = "github"
+    name = "github"
+    pre = ""
+    url = "https://github.com/bcrisp4"
+    weight = 2
+  [[menu.social]]
+    identifier = "linkedin"
+    name = "linkedin"
+    pre = ""
+    url = "https://linkedin.com/in/ben-s-crisp"
+    weight = 3
+  [[menu.social]]
+    identifier = "email"
+    name = "email"
+    pre = ""
+    url = "mailto:ben@thecrisp.com"
+    weight = 4
 
-[[params.menu]]
-  name = "blog"
-  url = "post/"
 
-[[params.menu]]
-  name = "post series"
-  url = "series/"
-  
-
-[[params.menu]]
-  name = "about"
-  url = "about/"
-  
-
-[privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    respectDoNotTrack = true
-    useSessionStorage = true
-  [privacy.twitter]
-    enableDNT = true
-  [privacy.youtube]
-    privacyEnhanced = true
+    
