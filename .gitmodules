@@ -1,6 +1,3 @@
-[submodule "themes/basic"]
-	path = themes/basic
-	url = https://github.com/siegerts/hugo-theme-basic.git
 [submodule "themes/peel"]
 	path = themes/peel
 	url = git@github.com:bcrisp4/hugo-peel-theme.git
