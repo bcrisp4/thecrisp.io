@@ -4,7 +4,7 @@ date: 2019-10-21T20:32:01+01:00
 Description: "This Hugo blog is automatically built and deployed to GitHub Pages using Travis CI. This post explains a little about how that works."
 Tags: ['hugo','ci','travis','github']
 Categories: []
-Draft: true
+Draft: false
 author:
   given_name: Ben
   family_name: Crisp
